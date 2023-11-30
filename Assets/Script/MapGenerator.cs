@@ -31,8 +31,6 @@ public class MapGenerator : MonoBehaviour
     void Start()
     {
         terrain = GetComponent<Terrain>();
-        // planeMaterial = plane.GetComponent<Renderer>().sharedMaterial;
-        // terrainMaterial = GetComponent<Renderer>().sharedMaterial;
         RegenerateTerrain();
     }
 
